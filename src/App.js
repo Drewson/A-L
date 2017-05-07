@@ -1,20 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
-import {Toolbar} from 'material-ui/Toolbar';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import MainHeader from './partials/header'
 
+import './App.css';
 
 class App extends Component {
   render() {
     return (
       <MuiThemeProvider>
-        <div className="App">
-          <div className="App-header">
-            <Toolbar>
-            </Toolbar>
-            <img src={require('./tEO.svg')} className="App-logo" alt="logo" />
-            <h2>Welcome to A-L</h2>
-          </div>
-        </div>
+        <MainHeader />
       </MuiThemeProvider>
     );
   }

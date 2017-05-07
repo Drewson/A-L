@@ -12,7 +12,8 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jest": "^19.0.1",
     "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3"
+    "eslint-plugin-react": "^6.10.3",
+    "node-sass": "^4.5.2"
   },
   "dependencies": {
     "gandalf-validator": "^0.8.4",
@@ -20,6 +21,7 @@
     "prop-types": "^15.5.7",
     "react": "^15.5.3",
     "react-dom": "^15.5.3",
+    "react-fontawesome": "^1.6.1",
     "react-redux": "^5.0.4",
     "react-router-dom": "^4.1.1",
     "react-tap-event-plugin": "^2.0.1",
@@ -27,6 +29,8 @@
     "url-search-params-polyfill": "^1.1.0"
   },
   "scripts": {
+    "build-css": "node-sass src/ -o src/",
+    "watch-css": "npm run build-css && node-sass src/ -o src/ --watch --recursive",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
