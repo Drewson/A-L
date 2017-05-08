@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <MuiThemeProvider>
         <MainHeader />
-        <MainFooter />
+        
       </MuiThemeProvider>
     );
   }
