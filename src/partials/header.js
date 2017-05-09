@@ -19,7 +19,7 @@ class MainHeader extends Component {
         <FontAwesome className='fa fa-facebook' name='fa-facebook' />
         <FontAwesome className='fa fa-twitter' name='fa-twitter' />
         <FontAwesome className='fa fa-instagram' name='fa-instagram' />
-        <ul style={{background: 'darkgrey', width: '100%', textAlign: 'center', margin: '0' }} >
+        <ul style={{background: '#130f00', width: '100%', textAlign: 'center', margin: '0' }} >
           <li style={headerNav}>
             <Link to="/about">About</Link>
           </li>
