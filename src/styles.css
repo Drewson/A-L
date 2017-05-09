@@ -3,7 +3,7 @@
 
 .App-logo {
   flex-basis: 100%;
-  height: 80px; }
+  height: 100px; }
 
 .App-header {
   height: 230px;
@@ -15,7 +15,7 @@
 
 .App-header h2 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 0; }
 
 .fa {
@@ -39,6 +39,7 @@ ul {
 }
 
 a {
+  font-family: 'PT-serif';
   color: white;
   text-decoration: none;
 }

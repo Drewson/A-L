@@ -15,7 +15,6 @@ class MainHeader extends Component {
     return (
     <div className='App-header'>
         <img src={require('../images/tEO.svg')} className="App-logo" alt="logo" />
-        <h2 style={{flexBasis:'100%', alignSelf:'center'}} >Welcome to A-L</h2>
         <FontAwesome className='fa fa-facebook' name='fa-facebook' />
         <FontAwesome className='fa fa-twitter' name='fa-twitter' />
         <FontAwesome className='fa fa-instagram' name='fa-instagram' />
