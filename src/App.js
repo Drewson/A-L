@@ -3,14 +3,16 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import MainHeader from './partials/header'
 import MainFooter from './partials/footer'
 
-import './App.css';
+import './styles.css';
 
 class App extends Component {
   render() {
     return (
       <MuiThemeProvider>
-        <MainHeader />
-        
+        <div>
+          <MainHeader />
+          <MainFooter />
+        </div>
       </MuiThemeProvider>
     );
   }

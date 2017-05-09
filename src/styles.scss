@@ -30,3 +30,14 @@
   font-size: large;
 }
 
+.headerNav {
+  width: 100%;
+  align-self: flex-end;
+  height: 100px;
+  background-color: black;
+
+  li {
+    display: inline-block;
+    color: white;
+  }
+}

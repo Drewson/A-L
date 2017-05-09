@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
-import '../App.css';
+import '../styles.css';
 
 class MainFooter extends Component {
   render() {
     return (
-    <footer style={{height: '300px', width:'100%', backgroundColor:'black'}}>
+    <footer>
+      <p>...footer...</p>
     </footer>
     );
   }

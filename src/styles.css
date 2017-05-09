@@ -6,7 +6,7 @@
   height: 80px; }
 
 .App-header {
-  height: 250px;
+  height: 230px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -22,3 +22,26 @@
 
 .App-intro {
   font-size: large; }
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 150px;
+  width:100%;
+  background-color:grey;
+}
+
+ul {
+  align-self: flex-end;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
