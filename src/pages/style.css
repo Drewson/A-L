@@ -74,6 +74,7 @@
 }
 
 .alex {
+    margin: 5px 10px;
     position: relative;
     background-image: url('./../images/al-alex.jpg');
     background-size: cover;
@@ -84,6 +85,7 @@
 }
 
 .leon {
+    margin: 5px 10px;
     position: relative;
     background-image: url('./../images/al-leon.jpg');
     background-size: cover;
