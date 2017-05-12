@@ -1,0 +1,59 @@
+.App-header {
+  height: 190px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+}
+
+.App-header h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 0; 
+}
+
+ul {
+  align-self: flex-end;
+  padding: 5px;
+  background-color: #222222;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  border-bottom: 5px solid gold;
+  box-shadow: 0px 5px 10px #333333;
+}
+
+ul a {
+  font-family: sans-serif;
+  font-size: .8rem;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.headerNav {
+  color: white;
+  display: inline-block;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+footer {
+  border-top: 5px solid gold;
+  margin-top: 0px;
+  height: 150px;
+  width:100%;
+  background-color:#222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .fa {
+  color: white;
+  font-size: 1.5rem;
+}

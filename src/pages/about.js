@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { MainHeader } from '../partials/header'
-import { MainFooter } from '../partials/footer'
+import MainHeader from '../partials/header'
+import MainFooter from '../partials/footer'
 
 class About extends Component {
     render(){

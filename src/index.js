@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import App from './App/App';
 import { 
   BrowserRouter as Router, 
   Route,
@@ -18,7 +17,7 @@ ReactDOM.render(
     <Router>
       <App>
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/home" component={Home} />
           <Route path="/contact" component={Contact} />
           <Route path="/about" component={About} />  
           <Route path="/listings" component={Listings} />  
