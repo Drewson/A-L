@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div>
         <MainHeader />
-          <div style={{marginTop:'185px'}}>
+          <div style={{marginTop:'180px'}}>
             { this.props.children }
           </div>
         <MainFooter />
