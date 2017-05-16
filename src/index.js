@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App/App';
-import { 
-  BrowserRouter as Router, 
+import {
+  BrowserRouter as Router,
   Route,
   Switch
 } from 'react-router-dom';
@@ -17,10 +17,10 @@ ReactDOM.render(
     <Router>
       <App>
         <Switch>
-          <Route path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/contact" component={Contact} />
-          <Route path="/about" component={About} />  
-          <Route path="/listings" component={Listings} />  
+          <Route path="/about" component={About} />
+          <Route path="/listings" component={Listings} />
           <Route render={() => <h1>Page Not Found </h1>} />
         </Switch>
       </App>

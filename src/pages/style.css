@@ -3,13 +3,12 @@
 }
 
 .featuredListing {
-    margin-top: 170px;
     padding: 5%;
     display: flex;
     flex-wrap: wrap;
     /*justify-content: space-around;*/
-    align-items: flex-end; 
-    background: -webkit-linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%), 
+    align-items: flex-end;
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
     url('./../images/al-filler.jpeg') no-repeat center 60px;
     background-size: cover;
     background-repeat: no-repeat;

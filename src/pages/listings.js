@@ -6,8 +6,6 @@ class Listings extends Component {
     render(){
         return(
             <div>
-                <MainHeader />
-                <MainFooter />
             </div>
         )
     }

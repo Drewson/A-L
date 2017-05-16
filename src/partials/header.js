@@ -13,16 +13,16 @@ class MainHeader extends Component {
         <FontAwesome className='fa fa-instagram' name='fa-instagram' />
         <ul>
           <li className='headerNav'>
+            <Link to="/">Home</Link>
+          </li>
+          <li className='headerNav'>
             <Link to="/about">About</Link>
           </li>
           <li className='headerNav'>
-            <Link to="/contact">Contact</Link>
-          </li>
-          <li className='headerNav'>
-            <Link to="/home">Home</Link>
-          </li>
-          <li className='headerNav'>
             <Link to="/listings">Listings</Link>
+          </li>
+          <li className='headerNav'>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
     </div>
