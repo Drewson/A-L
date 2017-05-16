@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './style.css';
 
+
 class Home extends Component {
     render(){
         return(
@@ -15,7 +16,7 @@ class Home extends Component {
                         </p>
                     </span>
                 </section>
-                <h2 className='founderHead'>A - L</h2>
+                <h2 className='founderHead'>A & L</h2>
                 <section className='founders'>
                     <div className='alex'>
                         <h3>Alex</h3>

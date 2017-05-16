@@ -59,7 +59,7 @@
     margin: 0px;
     padding: 10px;
     color: black;
-    background: white;
+    background:#eeeeee;
     text-align: center;
     /*width: 100%;*/
 }
@@ -104,10 +104,8 @@
 
 .frontText{
     text-indent: 15px;
-    margin: 5%;
+    margin: 11%;
     padding: 5%;
-    background: #eeeeee;
-    border: 1px solid #222222;
-    box-shadow: 0px 5px 5px #666666;
-    border-radius: 10px;
+    border-left: 2px solid rgba(22, 22, 22, .8);
+    border-right: 2px solid rgba(22, 22, 22, .8);
 }

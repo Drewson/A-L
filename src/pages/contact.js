@@ -11,12 +11,10 @@ class Contact extends Component {
                 <TextField
                 floatingLabelText="Name: "
                 hintText="Enter Name"
-                errorText="Name is required."
                 /><br />
                 <TextField
                 floatingLabelText="Email: "
                 hintText="Enter Email"
-                errorText="Email Is required"
                 /><br />
                 <TextField
                 floatingLabelText="Phone: "
